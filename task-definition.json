@@ -23,7 +23,7 @@
    ],
    "cpu": "256",
    "executionRoleArn": "arn:aws:iam::478526318168:role/ecsTaskExecutionRole",
-   "family": "fargate-task-definition",
+   "family": "java-task",
    "memory": "512",
    "networkMode": "awsvpc",
    "requiresCompatibilities": [ 
