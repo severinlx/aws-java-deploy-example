@@ -6,12 +6,12 @@
          "logConfiguration": { 
             "logDriver": "awslogs",
             "options": { 
-               "awslogs-group" : "/ecs/fargate-task-definition",
+               "awslogs-group" : "/ecs/vacation-java-task",
                "awslogs-region": "eu-central-1",
                "awslogs-stream-prefix": "ecs"
             }
          },
-         "name": "sample-fargate-app",
+         "name": "java-task",
          "portMappings": [ 
             { 
                "containerPort": 80,
